@@ -1,0 +1,88 @@
+/* Alt + shift +  a = comentario rapido */
+/* control + k + c = comentario rapido*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Warp&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+body{
+    background-color: red;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+h2{
+    color: white;
+    font-family: 'Tilt Warp', cursive;
+    animation-name: left-to-right;
+    animation-duration: 2s;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: red;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 116);
+    padding: 20px 150px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.571);
+    opacity: 1;
+}
+
+nav{
+    display: flex;
+    gap: 60px;
+}
+
+@keyframes left-to-right{
+    0%{
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: darkolivegreen;
+    border: 5px orange solid;
+    border-top: 5px white dashed;
+    border-radius: 10px;
+    border-bottom-left-radius: 60px;
+    margin: 40px 20px;
+    padding: 20px 10px;
+    text-align: center;
+    animation-name: left-to-right;
+    animation-duration: 2s;
+}
+.caja:hover{
+    transition: 4s ease-in-out;
+    background-color: blue;
+}
+
+.auto{
+    /* opacity: 0.8; */
+    /* filter: brightness(0.5); */
+    filter: invert();
+    width: 200px;
+}
+.auto:hover{
+    transition: 1s ease-in;
+    /* opacity: 1; */
+    filter: brightness(1);
+    
+}

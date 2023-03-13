@@ -1,0 +1,109 @@
+/* Comentario en css */    /**/
+
+/* Cascade Style Sheet */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 20px;
+}
+body{
+
+}
+
+
+h2{
+    color: rgb(31, 31, 30);
+    font-size: 25px;
+}
+
+nav a{
+    color: rgb(31, 31, 31);
+    text-decoration: none;
+    width: 90px;
+    text-align: center;
+}
+nav a:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgb(219, 219, 219);
+    border-radius: 5px;
+    padding: 10px;
+    transition: 1s ease-in;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-top: 10vh;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.404);
+}
+nav{
+    display: flex;
+    height: 40px;
+    width: 400px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(52, 165, 42);
+    border: 5px black solid;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin: 20px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation-name: left-to-right;
+    animation-duration: 2s;
+}
+@keyframes left-to-right{
+    0%{
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.caja h2{
+    
+    color: blueviolet;
+    font-weight: 100;
+    -webkit-text-stroke: 1px black;
+    line-height: .5;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    text-decoration: overline rgb(49, 49, 49) 7px;
+    font-size: 1rem;
+}
+h2:hover .logo::before{
+
+    transform: rotate(360deg);
+    transition: 2s ease-in;
+}
+header h2{
+    animation-name: left-to-right;
+    animation-duration: 2s;
+}

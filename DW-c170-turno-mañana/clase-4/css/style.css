@@ -1,0 +1,90 @@
+/* CSS = Cascade Style Sheet  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("./main.css");
+:root{
+    --color-oscuro: rgb(60, 15, 102);
+}
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--color-oscuro);
+}
+
+/*-------------------------------------- Estilos del navegador -------------------------------*/
+h2{
+    color: cornsilk;
+    font-size: 20px;
+    animation-name: left-to-right;
+    animation-duration: 4s;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkolivegreen;
+    padding: 20px 10vw;
+    border-radius: 7px;
+    margin: 50px 20px;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.439);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: blue;
+    cursor: wait;
+}
+nav{
+    display: flex;
+    gap: 3vw;
+}
+
+@keyframes left-to-right{
+    0%{
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+    border: 5px rgb(239, 234, 111) solid;
+    border-top: 5px black dashed;
+    border-radius: 5px;
+    border-top-right-radius: 70px;
+    margin: 50px 30px;
+    padding: 10px 15px;
+    animation-name: left-to-right;
+    animation-duration: 4s;
+}
+.caja:hover{
+    transition:ease-in-out 4s ;
+    background-color: blue;
+    /* transform: rotate(330deg); */
+    transform: translateX(300px);
+    rotate: 360deg;
+}
+html{
+    font-size: 20px;
+}
+footer h2{
+    color: black;
+    font-size: 1rem;
+}
