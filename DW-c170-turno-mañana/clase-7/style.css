@@ -1,0 +1,50 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* Que tenga el 5% del alto de la pantalla arriba y abajo y el 7% del ancho de la pantalla a los costados */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 7vw;
+    /* margin: 3vh 3vw; */
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+.btn-menu{
+    background-color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    display: none;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    gap: 6vw;
+}
+
+@media screen and (max-width: 800px){
+    nav{
+        display: none;
+    }
+    .btn-menu{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 460px){
+    header h2{
+        font-size: 20px;
+    }
+}
