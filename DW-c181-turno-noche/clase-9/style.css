@@ -1,0 +1,14 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+    font-family: sans-serif;
+}
+.card{
+    background-color: rgb(39, 38, 38);
+    border-radius: 5px;
+    width: 300px;
+    color: white;
+    padding: 10px;
+}
