@@ -1,0 +1,27 @@
+[
+    {
+        "name": "motorola G8",
+        "price": 40000,
+        "marca": "motorola",
+        "color": "red"
+    },
+    {
+        "name": "Iphone X",
+        "price": 300000,
+        "marca": "Apple",
+        "color": "white"
+    },
+    {
+        "name": "Samsung z-fold",
+        "price": 300000,
+        "marca": "Samsung",
+        "color": "black"
+    },
+    {
+        "name": "motorola G9",
+        "price": 60000,
+        "marca": "motorola",
+        "color": "blue"
+    }
+    
+]

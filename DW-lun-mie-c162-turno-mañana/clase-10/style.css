@@ -1,0 +1,19 @@
+
+
+.red{
+    background-color: red;
+}
+.white{
+    background-color: rgb(195, 193, 193);
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
+.color-disponible{
+    width: 30px;
+    height: 30px;
+
+}
