@@ -1,0 +1,34 @@
+[
+    {
+        "destination": "Ushuaia",
+        "province": "Tierra del fuego",
+        "country": "Argentina",
+        "price": 550,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfyKX51SS8fC0oZErcBFdbYs7YBs2fK_LQgA&usqp=CAU",
+        "stay": 7
+    },
+    {
+        "destination": "Rio Grande",
+        "province": "Tierra del fuego",
+        "country": "Argentina",
+        "price": 450,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfyKX51SS8fC0oZErcBFdbYs7YBs2fK_LQgA&usqp=CAU",
+        "stay": 3
+    },
+    {
+        "destination": "Bariloche",
+        "province": "Rio negro",
+        "country": "Argentina",
+        "price": 950,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfyKX51SS8fC0oZErcBFdbYs7YBs2fK_LQgA&usqp=CAU",
+        "stay": 6
+    },
+    {
+        "destination": "El bolson",
+        "province": "Rio negro",
+        "country": "Argentina",
+        "price": 550,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfyKX51SS8fC0oZErcBFdbYs7YBs2fK_LQgA&usqp=CAU",
+        "stay": 7
+    }
+]
