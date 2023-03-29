@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "Venzo",
+        "precio": 15,
+        "duracion": "por dia",
+        "rodado": 26 ,
+        "talle": "XL",
+        "color": "blanco",
+        "url": "https://www.modobici.ar/wp-content/uploads/2021/01/venzovulcan1.jpg"
+    },
+    {
+        "nombre": "Scott",
+        "precio": 15,
+        "duracion": "por dia",
+        "rodado": 26 ,
+        "talle": "XL",
+        "color": "blanco",
+        "url": "https://www.modobici.ar/wp-content/uploads/2021/01/venzovulcan1.jpg"
+    },
+    {
+        "nombre": "cannondale",
+        "precio": 15,
+        "duracion": "por dia",
+        "rodado": 26 ,
+        "talle": "XL",
+        "color": "blanco",
+        "url": "https://www.modobici.ar/wp-content/uploads/2021/01/venzovulcan1.jpg"
+    },
+    {
+        "nombre": "Merida",
+        "precio": 15,
+        "duracion": "por dia",
+        "rodado": 26 ,
+        "talle": "XL",
+        "color": "blanco",
+        "url": "https://www.modobici.ar/wp-content/uploads/2021/01/venzovulcan1.jpg"
+    }
+]

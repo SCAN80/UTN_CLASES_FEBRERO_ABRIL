@@ -1,0 +1,24 @@
+body{
+    background-color: wheat;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    padding: 10px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.476);
+}   
+
+.card img{
+    width: 100%;
+    border-radius: 5px;
+}
