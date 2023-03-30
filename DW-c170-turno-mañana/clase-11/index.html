@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>Pagina C170</h2>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Contact</a>
+            <a href="">Products</a>
+            <a href="">Services</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Registre a sus usuarios aqui</h1>
+        <form id="formularioUsuarios">
+            <div class="inputContainer">
+                <label for="nombre">Ingrese su nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Cosme Fulanito" required> 
+            </div>
+            <div class="inputContainer">
+                <label for="email">Ingrese su Email</label>
+                <input type="email" id="email" name="email" placeholder="cosme@gmail.com" required>
+            </div>
+            <div class="inputContainer">
+                <label for="contrasena">Ingrese su contraseña</label>
+                <input type="password" id="contrasena" name="contrasena" placeholder="cosme123fulanito" required>
+            </div>
+            <div class="inputContainer">
+                <label for="provincia">Seleccione su provincia</label>
+                <select name="provincia" id="provincia">
+                    <option value="buenos aires">Buenos Aires</option>
+                    <option value="santa fe">Santa Fe</option>
+                    <option value="cordoba">Cordoba</option>
+                    <option value="entre rios">Entre Rios</option>
+                </select>
+            </div>
+            <input type="submit" value="Registrar" class="btn-registrar"/>
+        </form>
+        <div class="contenedorUsuarios"></div>
+    </main>
+    <footer>
+        <p>Comision 170 Argentina Programa 2023 ®Todos los derechos reservados</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
