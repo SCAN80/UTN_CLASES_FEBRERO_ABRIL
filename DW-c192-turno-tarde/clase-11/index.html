@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h2>Pagina C 192</h2>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Contact</a>
+            <a href="">Product</a>
+            <a href="">Services</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Aqui puedes registrar a los usuarios</h1>
+        <form class="formularioUsuarios">
+            <div class="inputContainer">
+                <label for="nombre">Ingrese su nombre</label>
+                <input type="text" placeholder="Ingrese su nombre" id="nombre" name="nombre">
+            </div>
+            <div class="inputContainer">
+                <label for="email">Ingrese su mail</label>
+                <input type="text" placeholder="Ingrese su mail" id="email" name="email">
+            </div>
+            <div class="inputContainer">
+                <label for="contrasena">Ingrese su contraseña</label>
+                <input type="text" placeholder="Ingrese su contraseña" id="contrasena" name="contrasena">
+            </div>
+            <div class="inputContainer">
+                <label for="provincia">Seleccione su provincia</label>
+                <select name="provincia" id="provincia">
+                    <option value="Buenos Aires">Buenos Aires</option>
+                    <option value="Santa Cruz">Santa Cruz</option>
+                    <option value="Cordoba">Cordoba</option>
+                    <option value="Mendoza">Mendoza</option>
+                </select>
+            </div>
+            <input type="submit" value="Registrar" class="btn-register">
+        </form>
+        <div id="contenedorUsuarios" class="contenedorUsuarios"></div>
+    </main>
+    <footer>
+        <p>Argentina Programa C192 ®Todos los derechos reservados</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
