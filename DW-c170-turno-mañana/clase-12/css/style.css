@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --color-amarillo: #FFC727;
+    --color-celeste: #DFEAFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 5vw;
+}
+
+.btn-login{
+    background-color: transparent;
+    border: gray 1px solid;
+    font-size: 18px;
+    padding: 12px 15px;
+    border-radius: 14px;
+}
+.btn-register{
+    background-color: var(--color-amarillo);
+    font-size: 18px;
+    padding: 12px 15px;
+    border-radius: 14px;
+    border: none;
+}
+.bi-android2{
+    color: var(--color-amarillo);
+    font-size: 34px;
+}
+
+.color-amarillo{
+    color: var(--color-amarillo);
+}
+
+h1{
+    font-size: 52px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 5vw;
+    align-items: center;
+}
+.img-hero-container{
+    width: 30vw;
+}
+.img-hero-container img{
+    width: 100%;
+}
