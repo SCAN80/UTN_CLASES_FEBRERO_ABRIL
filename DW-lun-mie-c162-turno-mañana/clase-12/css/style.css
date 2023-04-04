@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --color-amarillo: #FFC727;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 5vw;
+}
+ .bi-android2{
+    color: var(--color-amarillo);
+    font-size: 2.4rem;
+    
+}
+
+.btn-login{
+    border: #BDBDBD 1px solid;
+    padding: 10px 20px;
+    border-radius: 14px;
+    background-color: transparent;
+}
+.btn-register{
+    background-color: var(--color-amarillo);
+    padding: 10px 20px;
+    border-radius: 14px;
+    border: none;
+}
+main{
+
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 5vw;
+    align-items: center;
+}
+.hero img{
+    width: 30vw;
+
+}
+.hero .hero-title h1{
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+.hero .hero-title p{
+    font-size: 20px;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3vh 5vw;
+    background-color: #DFEAFF;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+.card-service{
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-service img{
+    width: 100%;
+}
+.card-service h2{
+    text-align: center;
+}
+footer{
+    display: flex;
+    padding: 10vh 5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.font-color-amarillo{
+    color:var(--color-amarillo);
+}
