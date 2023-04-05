@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+:root{
+    --color-amarillo: #FFC727;
+}
+
+
+.bi-android2{
+    color: var(--color-amarillo);
+    font-size: 38px;
+}
+
+.color-amarillo{
+    color: var(--color-amarillo);
+}
+
+header{
+    display: flex;
+    padding: 3vh 5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+
+}
+
+.btn{
+    font-size: 18px;
+    border-radius: 14px;
+    padding: 12px 18px;
+}
+
+.btn-login{
+    background-color: transparent;
+    border: gray 1px solid;
+}
+.btn-register{
+    background-color: var(--color-amarillo);
+    border: none;
+}
+
+.hero{
+    padding: 5vh 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.hero .img-container{
+    width: 35%;
+    padding-right: 5vw;
+}
+.hero .img-container img{
+    width: 100%;
+
+}
+
+h1{
+    font-size: 52px;
+}
+.hero-info p{
+    font-size: 20px;
+}
+
+.services{
+    background-color: #DFEAFF;
+    padding: 5vh 5vw;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 70px;
+
+}
+
+.card{
+    width: 330px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.136);
+    text-align: center;
+}
+.card img{
+    width: 100%;
+
+}

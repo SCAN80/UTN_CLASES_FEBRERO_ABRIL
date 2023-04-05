@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* Aqui creamos la variable */
+:root{
+    --color-principal: #FFC727;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 5vw;
+}
+
+nav{
+    display: flex;
+    gap: 44px;
+}
+
+.btn-register{
+    border-radius: 14px;
+    font-size: 22px;
+    padding: 12px 20px;
+    border: none;
+    /* Aqui usamos la variable */
+    background-color: var(--color-principal);
+}
+.btn-login{
+    padding: 12px 20px;
+    background-color: transparent;
+    border: gray 1px solid;
+    border-radius: 14px;
+    font-size: 22px;
+}
+.bi-alarm-fill{
+    color: var(--color-principal);
+    font-size: 40px;
+    -webkit-text-stroke: 1px black;
+}
+
+.hero{
+    padding: 5vh 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-info{
+    width: 30vw;
+}
+.hero-info p{
+    font-size: 20px;
+}
+h1{
+    font-size: 52px;
+}
+
+.color-amarillo{
+    color:var(--color-principal);
+}
+
+.img-container{
+    width: 30vw;
+    margin-right: 5vw;
+}
+.img-container img{
+    width: 100%;
+}
