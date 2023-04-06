@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <h1 class="text-center pt-3 pb-3 bg-dark text-light fw-light text-decoration-underline">Hello, world!</h1>
+    <button class="btn btn-success" id="btn-sweet">Sweet Alert</button>
+    <button class="btn btn-danger" id="btn-toast">Show Toast</button>
+    <section class="p-5">
+        <h2 class="fw-bolder ">Que es mejor?</h2>
+        <div class="d-flex p-5 align-items-center gap-3 justify-content-center">
+            <div class="bg-primary text-light fw-bolder fs-4 w-25 rounded-3 p-1 text-center">
+                CSS
+            </div>
+            <span class="fw-bolder">VS</span>
+            <div class="bg-danger text-light fw-bolder fs-4 w-25 rounded-3 p-1 text-center">Bootstrap</div>
+        </div>
+        <h3>CSS:</h3>
+        <div class="p-3">
+            <h4 class="text-success">Pros</h4>
+            <p>
+                Es una tecnologia nativa con muchos años de uso para poder generar estilos en la web extremadamente costomizables. Lo podemos usar a pesar de que tengamos un framework. Es extremadamente liviano ya que solo escribimos los estilos que usamos
+            </p>
+            <h4 class="text-danger color-especial">
+                Contras
+            </h4>
+            <p>
+                Al ser una tecnologia muy extrensa puede resultar confuso de aprender y hay ademas muchas propiedades que hacen lo mismo que otras, lo que dificulta aun mas la tarea de tener un codigo limpio y reutilizable.
+            </p>
+        </div>  
+        <h3>Bootstrap:</h3>
+        <div class="p-3">
+            <h4 class="text-success">Pros</h4>
+            <p>
+                Al ser un framework de CSS, es de mas facil aprendizaje y al estar basado en flexbox y grillas no hay tantas propiedades inutiles o deprecadas como en CSS. Es mucho mas facil para copiar y pegar, y nos permite diseños responsivos sin el uso directo de mediaqueries.
+            </p>
+            <h4 class="color-especial">
+                Contras
+            </h4>
+            <p>
+                Al ser una tecnologia hecha por otros desarrolladores, estamos limitados a usar las propiedades creadas y conocerlas bien dado a que utilizan !important (por lo que puede genererar problemas de especificidad). Generamos diseños repetitivos dado a que es una tecnologia muy famosa.
+            </p>
+        </div>  
+        
+        <h2>Otros frameworks de CSS conocidos</h2>
+        <ul>
+            <li>Tailwind CSS</li>
+            <li>Bulma CSS</li>
+            <li>Materialize</li>
+            <li>Material UI</li>
+            <li>Chakra UI</li>
+        </ul>
+        <h2> ¿Framework CSS es lo mismo que Framework de JS?</h2>
+
+        <h3>Javascript</h3>
+        <ul>
+            <li>React</li>
+            <li>Vue/Vuero.js</li>
+            <li>Angular.JS</li>
+            <li>Astro</li>
+            <li>Svelte</li>
+        </ul>
+        <h3>CSS</h3>
+        <ul>
+            <li>Tailwind CSS</li>
+            <li>Bulma CSS</li>
+            <li>Materialize</li>
+            <li>Material UI</li>
+            <li>Chakra UI</li>
+        </ul>
+    </section>
+
+    <div id="carouselExampleControls" class="carousel slide w-50" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0nETRICKZ_m_QXRCsRY_Fe4pvqWiP5nDuMjgh2HzQ&s" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://wallpaperaccess.com/full/3238251.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.1zoom.me/big2/51/161825-sweetangel.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
