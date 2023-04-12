@@ -1,0 +1,37 @@
+[
+    {
+        "img": "https://http2.mlstatic.com/D_Q_NP_813344-MLA49107507599_022022-AB.webp",
+        "price": 6.999,
+        "offer": 50,
+        "feeDescription": "El mismo precio en 3 cuotas",
+        "title" : "Microsoft Xbox series S 512GB de almacenamiento"
+    },
+    {
+        "img": "https://http2.mlstatic.com/D_Q_NP_627149-MLA44484230438_012021-AB.webp",
+        "price": 26.999,
+        "offer": 30,
+        "feeDescription": "El mismo precio en 3 cuotas",
+        "title" : "Microsoft Xbox series S 512GB de almacenamiento"
+    },
+    {
+        "img": "https://http2.mlstatic.com/D_Q_NP_867270-MLU50333265757_062022-AB.webp",
+        "price": 6.999,
+        "offer": 50,
+        "feeDescription": "El mismo precio en 3 cuotas",
+        "title" : "Microsoft Xbox series S 512GB de almacenamiento"
+    },
+    {
+        "img": "https://http2.mlstatic.com/D_Q_NP_813344-MLA49107507599_022022-AB.webp",
+        "price": 6.999,
+        "offer": 60,
+        "feeDescription": "El mismo precio en 3 cuotas",
+        "title" : "Microsoft Xbox series S 512GB de almacenamiento"
+    },
+    {
+        "img": "https://http2.mlstatic.com/D_Q_NP_813344-MLA49107507599_022022-AB.webp",
+        "price": 6.999,
+        "offer": 50,
+        "feeDescription": "El mismo precio en 3 cuotas",
+        "title" : "Microsoft Xbox series S 512GB de almacenamiento"
+    }
+]
